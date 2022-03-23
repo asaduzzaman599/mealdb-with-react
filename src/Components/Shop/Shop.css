@@ -5,12 +5,31 @@
 
 .product-container{
     width: 90%;
-    margin: 0 auto;
+    margin: 80px auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
 .cart-container{
-    padding-left: 20px;
     border-left: 2px solid rgba(0, 0, 0, 0.124);
+}
+.cart-container h4{
+    text-align: center;
+}
+
+
+@media screen and (max-width:950px) {
+    .shop-container{
+        grid-template-columns: 3fr 1fr;
+    }.product-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:550px) {
+    .shop-container{
+        grid-template-columns: 2fr 1fr;
+    }.product-container{
+        grid-template-columns: 1fr;
+    }
 }
