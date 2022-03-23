@@ -10,3 +10,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+.cart-container{
+    padding-left: 20px;
+    border-left: 2px solid rgba(0, 0, 0, 0.124);
+}
