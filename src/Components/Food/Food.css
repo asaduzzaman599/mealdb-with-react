@@ -1,0 +1,19 @@
+.food{
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.227);
+    border-radius: 10px;
+
+}
+.food img{
+    width: 100%;
+    border-radius: 10px;
+}
+.food button{
+    border: 0;
+    padding: 10px 15px;
+    background-color: darkorange;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+}
