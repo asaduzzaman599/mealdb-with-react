@@ -17,6 +17,12 @@
     
     position: sticky;
     top: 0;
+    overflow-y: scroll;
+}
+.cart-content:hover{
+    height: 100vh;
+    overflow-y: scroll;
+
 }
 .cart-container h4{
     text-align: center;
