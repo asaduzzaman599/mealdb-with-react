@@ -13,6 +13,17 @@
     width: 100%;
     border-radius: 10px;
 }
+.cart-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cross{
+    background: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 
 

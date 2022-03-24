@@ -13,6 +13,11 @@
 .cart-container{
     border-left: 2px solid rgba(0, 0, 0, 0.124);
 }
+.cart-content{
+    
+    position: sticky;
+    top: 0;
+}
 .cart-container h4{
     text-align: center;
 }
